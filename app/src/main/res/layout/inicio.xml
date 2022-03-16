@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context="com.isc.appusuario.InicioActivity" >
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="317dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/bienvenidos"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textobienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:rotation="-7"
+        android:rotationX="33"
+        android:rotationY="0"
+        android:text="@string/bienvenidos"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+</LinearLayout>
